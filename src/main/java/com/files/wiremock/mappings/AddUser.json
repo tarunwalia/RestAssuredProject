@@ -1,0 +1,18 @@
+{
+	"request": {
+		"urlPattern": "/addUser",
+		"method": "POST",
+		"bodyPatterns": [
+			{
+				"equalToJson": "{\n  \"login\" : \"tarunwalia3\",\n  \"www\" : \"www.google3.com\"\n}"
+			}
+		]
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"body": "{\"id\": \"3\", \"login\": \"tarunwalia3\", \"www\" : \"www.google3.com\"}"
+	}
+}

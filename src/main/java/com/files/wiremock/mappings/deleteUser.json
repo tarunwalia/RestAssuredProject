@@ -1,0 +1,13 @@
+{
+	"request": {
+		"urlPattern": "/deleteUser/3",
+		"method": "DELETE"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"body": "{\"message\": \"User deleted.\", \"successMessage\": {\"message\":\"User deleted confirmed.\"}}"
+	}
+}
