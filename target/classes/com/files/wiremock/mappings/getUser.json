@@ -1,0 +1,13 @@
+{
+	"request": {
+		"urlPattern": "/user/1",
+		"method": "GET"
+	},
+	"response": {
+		"status": 200,
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"body": "{\"id\": \"1\", \"login\": \"tarunwalia\", \"www\": \"www.google.com\"}"
+	}
+}
